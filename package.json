@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build": "webpack -p",
-	"dev": "webpack -d --watch",
-	"server": "webpack-dev-server --content-base src/client/"
+    "build": "webpack -p",
+    "dev": "webpack -d --watch",
+    "server": "webpack-dev-server --content-base src/client/"
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +19,8 @@
     "react-dom": "^15.2.1",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0"
   }
 }
